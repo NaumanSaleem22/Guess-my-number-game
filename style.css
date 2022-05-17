@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.number {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    padding: 10px;
+    color: black !important;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.guess {
+    color: black !important;
+    padding: 10px;
+}
+
+.check {
+    border: none;
+    background-color: rgb(66, 66, 66);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.again {
+    border: none;
+    background-color: rgb(66, 66, 66);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.again {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.between {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.message,
+.label-score,
+.label-highscore {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
